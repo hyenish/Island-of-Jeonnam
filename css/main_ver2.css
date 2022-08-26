@@ -1,0 +1,506 @@
+#island .inner .allcity {
+  position: relative;
+  width: 100%;
+  height: 532px;
+}
+#island .inner .allcity .center {
+  width: 40%;
+  height: 100%;
+  left: calc(50% - (520px / 2));
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+#island .inner .allcity .center h2 {
+  font-size: 38px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  text-shadow: 2px 2px 5px #4f4141b3;
+  text-align: center;
+}
+#island .inner .allcity .center .pgroup {
+  margin-top: 155px;
+  text-align: center;
+}
+#island .inner .allcity .center .pgroup p{
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 5px #4f4141b3;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  margin-bottom: 40px;
+}
+#island .inner .allcity .center .pgroup p.up{
+
+}
+#island .inner .allcity .center .pgroup p.down{
+
+}
+#island .inner .allcity .center p span.yellow{
+  color: #ffed55;
+  font-size: 37px;
+  font-family: 'EliceDigitalBaeum-Bd';
+}
+
+/*전국 왼쪽*/
+#island .inner .allcity .left {
+  width: 451px;
+  height: 448px;
+  position: absolute;
+  left: 0;
+  margin-top: 100px;
+}
+#island .inner .allcity .left .title {
+
+}
+#island .inner .allcity .left .title p {
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  font-size: 33px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #4f4141b3;
+}
+#island .inner .allcity .left .title p span {
+  background-color: #0753fa;
+  border-radius: 10px;
+  padding: 0 10px;
+  text-align: center;
+}
+#island .inner .allcity .left .title p span::before{
+  content: "";
+  background-image: url(../img/txt_ico2.png);
+  width: 39px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  top: -32px;
+  left: 200px;
+}
+#island .inner .allcity .left img {
+
+}
+#island .inner .allcity .left ul.data{
+
+}
+#island .inner .allcity .left ul.data li{
+  color: white;
+  position: absolute;
+}
+#island .inner .allcity .left ul.data li:nth-child(1){  
+  top: 222px;
+  left: 42px;
+  font-size: 19px;
+}
+#island .inner .allcity .left ul.data li:nth-child(2){  
+  font-size: 18px;
+  top: 173px;
+  right: 149px;
+}
+#island .inner .allcity .left ul.data li:nth-child(3){  
+  top: 265px;
+  right: 150px;
+}
+#island .inner .allcity .left ul.data li:nth-child(4){  
+  bottom: 88px;
+  right: 29px;
+  font-size: 15px;
+}
+#island .inner .allcity .left ul.data li:nth-child(5){  
+  bottom: 66px;
+  right: 55px;
+  font-size: 15px;
+}
+#island .inner .allcity .left ul.data li:nth-child(6){
+  bottom: 42px;
+  right: 83px;
+  font-size: 14px;
+}
+#island .inner .allcity .left ul.data li:nth-child(7){  
+  bottom: 19px;
+  right: 100px;
+  font-size: 14px;
+}
+#island .inner .allcity .left ul.data li:nth-child(8){
+  bottom: -14px;
+  right: 190px;
+  font-size: 14px;
+}
+#island .inner .allcity .left ul.data li:nth-child(9){
+  bottom: -14px;
+  right: 253px;
+  font-size: 14px;
+}
+/*전국 오른쪽*/
+#island .inner .allcity .right {
+  width: 451px;
+  height: 532px;
+  position: absolute;
+  right: 0;
+  margin-top: 100px;
+}
+#island .inner .allcity .right .title {
+
+}
+#island .inner .allcity .right .title p {
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  font-size: 33px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #4f4141b3;
+}
+#island .inner .allcity .right .title p span {
+  background-color: #ff8a33;
+  border-radius: 10px;
+  padding: 0 10px;
+  text-align: center;
+}
+#island .inner .allcity .right .title p span::before{
+  content: "";
+  background-image: url(../img/txt_ico3.png);
+  width: 47px;
+  height: 28px;
+  display: block;
+  position: absolute;
+  top: -28px;
+  left: 206px;
+}
+#island .inner .allcity .right img {
+
+}
+#island .inner .allcity .right ul.data{
+
+}
+#island .inner .allcity .right ul.data li{
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+#island .inner .allcity .right ul.data li:nth-child(1){
+  font-size: 19px;
+  top: 199px;
+  right: 41px;
+}
+#island .inner .allcity .right ul.data li:nth-child(2){
+  font-size: 18px;
+  top: 171px;
+  left: 148px;
+}
+#island .inner .allcity .right ul.data li:nth-child(3){
+  font-size: 17px;
+  top: 265px;
+  left: 149px;
+}
+#island .inner .allcity .right ul.data li:nth-child(4){
+  top: 343px;
+  left: 22px;
+}
+#island .inner .allcity .right ul.data li:nth-child(5){
+
+  top: 366px;
+  left: 49px;
+}
+#island .inner .allcity .right ul.data li:nth-child(6){
+  top: 392px;
+  left: 77px;
+}
+#island .inner .allcity .right ul.data li:nth-child(7){
+  top: 414px;
+  left: 97px;
+  font-size: 15px;
+}
+#island .inner .allcity .right ul.data li:nth-child(8){
+  top: 438px;
+  left: 110px;
+  font-size: 15px;
+}
+#island .inner .allcity .right ul.data li:nth-child(9){
+  top: 462px;
+  left: 127px;
+  font-size: 15px;
+}
+#island .inner .allcity .right ul.data li:nth-child(10){ 
+  top: 484px;
+  left: 139px;
+  font-size: 14px;
+}
+#island .inner .allcity .right ul.data li:nth-child(11){  
+  top: 509px;
+  left: 156px;
+  font-size: 14px;
+}
+#island .inner .allcity .right >p{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  position: absolute;
+  bottom: -51px;
+  right: 0;
+}
+#island .background_new{
+
+}
+#island .background_new p{
+  background-image: url(../img/fish1.png);
+  width: 196px;
+  height: 64px;
+  font-size: 0;
+  position: absolute;
+  top: 1111px;
+  left: 58px;
+}
+#island .background_new img{
+  position: absolute;
+  width: 1810px;
+  height: 385px;
+  bottom: 0;
+  right: 0;
+}
+
+
+/* people 전남 시·군별 섬 & 인구 현황 */
+#people {
+  height: 1207px;
+  background-color: #0068d3;
+  position: relative;
+  width: calc(100% - 110px);
+  padding-left: 110px;
+  overflow: hidden;
+}
+#people .inner{
+  position: relative;
+  height: 1207px;
+  width: 100%;
+}
+#people .inner h2 {
+  text-align: center;
+  padding: 40px 0;
+}
+#people .inner h2 span{
+  font-size: 38px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  text-shadow: 2px 2px 5px #4f4141b3;
+}
+#people .inner img {
+
+}
+#people .inner .data {
+
+}
+#people .inner .data ul.city {  
+  position: absolute;
+}
+#people .inner .data ul.city:nth-child(1) {  
+  top: 397px;
+  left: 124px;
+}
+#people .inner .data ul.city:nth-child(2) {  
+  top: 295px;
+  left: 259px;
+}
+#people .inner .data ul.city:nth-child(3) {  
+  top: 295px;
+  left: 393px;
+}
+#people .inner .data ul.city:nth-child(4) {  
+  top: 295px;
+  left: 517px;
+}
+#people .inner .data ul.city:nth-child(5) {  
+  top: 295px;
+  left: 639px;
+}
+#people .inner .data ul.city:nth-child(6) {  
+  top: 295px;
+  left: 762px;
+}
+#people .inner .data ul.city:nth-child(7) {  
+  top: 295px;
+  left: 891px;
+}
+#people .inner .data ul.city:nth-child(8) {  
+  top: 392px;
+  left: 1028px;
+}
+#people .inner .data ul.city:nth-child(9) {  
+  top: 548px;
+  right: 164px;
+}
+#people .inner .data ul.city:nth-child(10) {  
+  top: 651px;
+  right: 290px;
+}
+#people .inner .data ul.city:nth-child(11) {  
+  top: 651px;
+  right: 450px;
+}
+#people .inner .data ul.city:nth-child(12) {  
+  top: 651px;
+  right: 605px;
+}
+#people .inner .data ul.city:nth-child(13) {  
+  top: 651px;
+  right: 761px;
+}
+#people .inner .data ul.city:nth-child(14) {  
+  top: 651px;
+  right: 923px;
+}
+#people .inner .data ul.city:nth-child(15) {  
+  top: 548px;
+  left: 124px;
+}
+#people .inner .data ul.city span {
+  border-radius: 30px;
+  display: block;
+  width: 94px;
+  height: 33px;
+  text-align: center;
+  background-color: white;
+  color: #033caf;
+  box-shadow: 2px 2px 5px #4f4141b3;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.8;
+}
+#people .inner .data ul.city:nth-child(1) span{  
+  position: absolute;
+  top: 0;
+  left: -110px;
+}
+#people .inner .data ul.city:nth-child(2) span{  
+  position: absolute;
+  top: -37px;
+  left: -104px;
+}
+#people .inner .data ul.city:nth-child(3) span{
+  position: absolute;
+  top: -57px;
+  left: 6px;
+}
+#people .inner .data ul.city:nth-child(4) span{
+  position: absolute;
+  top: -57px;
+  left: 6px;
+}
+#people .inner .data ul.city:nth-child(5) span{ 
+  position: absolute;
+  top: -57px;
+  left: 6px;
+}
+#people .inner .data ul.city:nth-child(6) span{ 
+  position: absolute;
+  top: -57px;
+  left: 6px;
+}
+#people .inner .data ul.city:nth-child(7) span{ 
+  position: absolute;
+  top: -37px;
+  left: 109px;
+}
+#people .inner .data ul.city:nth-child(8) span{  
+  position: absolute;
+  top: 0px;
+  left: 104px;
+}
+#people .inner .data ul.city:nth-child(9) span{  
+  position: absolute;
+  top: 58px;
+  left: 115px;
+}
+#people .inner .data ul.city:nth-child(10) span{  
+  position: absolute;
+  bottom: -34px;
+  left: 87px;
+}
+#people .inner .data ul.city:nth-child(11) span{  
+  position: absolute;
+  bottom: -52px;
+  left: 7px;
+}
+#people .inner .data ul.city:nth-child(12) span{  
+  position: absolute;
+  bottom: -52px;
+  left: 7px;
+}
+#people .inner .data ul.city:nth-child(13) span{  
+  position: absolute;
+  bottom: -52px;
+  left: 7px;
+}
+#people .inner .data ul.city:nth-child(14) span{  
+  position: absolute;
+  bottom: -34px;
+  left: -92px;
+}
+#people .inner .data ul.city:nth-child(15) span{
+  position: absolute;
+  top: 57px;
+  left: -110px;
+}
+#people .inner .data ul.city li {
+  border-bottom: 1px solid #d9d9d9;
+  width: 71px;
+  font-family: 'NEXON Lv2 Gothic';
+  line-height: 1.8;
+  padding-left: 39px;
+  height: 30px;
+  font-size: 17px;
+}
+#people .inner .data ul.city li:nth-of-type(4){
+  border-bottom: none;
+}
+#people .inner .data ul.city li::before{
+
+}
+#people .inner .data ul.city li:nth-of-type(1)::before{
+  content: "";
+  display: block;
+  background-image: url(../img/report_ico1.png);
+  width: 36px;
+  height: 35px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+#people .inner .data ul.city li:nth-of-type(2)::before{
+  content: "";
+  display: block;
+  background-image: url(../img/report_ico2.png);
+  width: 36px;
+  height: 35px;
+  position: absolute;
+  top: 31px;
+  left: 0;
+}
+#people .inner .data ul.city li:nth-of-type(3)::before{
+  content: "";
+  display: block;
+  background-image: url(../img/report_ico3.png);
+  width: 36px;
+  height: 35px;
+  position: absolute;
+  top: 64px;
+  left: 0;
+}
+#people .inner .data ul.city li:nth-of-type(4)::before{
+  content: "";
+  display: block;
+  background-image: url(../img/report_ico4.png);
+  width: 36px;
+  height: 35px;
+  position: absolute;
+  top: 92px;
+  left: 0;
+}
+#people .inner >p{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  position: absolute;
+  right: 0;
+}
+
+/*오류로 인해 #people .inner >p까지만 여기까지
+  #people .background부터는 다음 css에서 이어서*/

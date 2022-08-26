@@ -1,0 +1,561 @@
+main{
+  
+}
+#resource {
+  position: relative;
+  width: calc(100% - 110px);
+  height: 925px;
+  padding-left: 110px;
+}
+#resource .background {
+  height: 925px;
+}
+#resource .background img{
+  
+}
+#resource .background .bg {
+  background-image: url(../img/bg2.png);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 322px;
+}
+#resource .background .leaf_L{
+  background-image: url(../img/leaf2.png);
+  width: 190px;
+  height: 218px;
+  position: absolute;
+  top: 88px;
+}
+#resource .background .leaf_R{
+  background-image: url(../img/leaf.png);
+  width: 191px;
+  height: 208px;
+  position: absolute;
+  right: 0;
+  top: 98px;
+}
+#resource .background .bird{
+  background-image: url(../img/bird.png);
+  position: absolute;
+  width: 109px;
+  height: 64px;
+  top: 153px;
+  right: 276px;
+}
+#resource .background .ship{
+  background-image: url(../img/ship.png);
+  width: 326px;
+  height: 150px;
+  position: absolute;
+  bottom: 0px;
+  left: 202px;
+  z-index: 1;
+}
+#resource .background .wave{
+  background-image: url(../img/wave2.svg);
+  position: absolute;
+  width: 100%;
+  height: 66px;
+  bottom: 0;
+}
+#resource .inner {
+
+}
+#resource .inner .slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#resource .inner .slogan h2 {
+  font-size: 35px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  font-family: 'EliceDigitalBaeum-Bd';
+}
+#resource .inner .slogan h2::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  opacity: 0.8;
+  background: #e3f6ff;
+  border-radius: 20px;
+  z-index: -1;
+}
+#resource .inner .slogan h2 {
+
+}
+#resource .inner .slogan h2 strong{ 
+  color: #006aee;
+  font-size: 40px;
+}
+#resource .inner .list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#resource .inner .list ul {
+  position: absolute;
+  display: flex;
+  top: 300px;
+}
+#resource .inner .list ul li {
+  width: 232px;
+  height: 302px;
+  /*! border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+#resource .inner .list ul li.box1{
+
+}
+#resource .inner .list ul li.box2{  
+
+}
+#resource .inner .list ul li.box3{  
+
+}
+#resource .inner .list ul li.box4{ 
+
+}
+#resource .inner .list ul li p.title {
+  width: 90px;
+  height: 34px;
+  text-align: center;
+  line-height: 2.2;
+  border: 0px solid;
+  border-radius: 20px;
+  color: white;
+  font-family: 'NEXON Lv1 Gothic OTF';
+}
+#resource .inner .list ul li.box1 p.title{
+  background-color: #008f54;
+}
+#resource .inner .list ul li.box2 p.title{
+  background-color: #0056c1;
+}
+#resource .inner .list ul li.box3 p.title{
+  background-color: #f36700;
+}
+#resource .inner .list ul li.box4 p.title{
+  background-color: #004193;
+}
+#resource .inner .list ul li p.img {
+  width: 120px;
+  height: 125px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#resource .inner .list ul li p.img img{
+
+}
+#resource .inner .list ul li p.text {
+  font-size: 20px;
+}
+#resource .inner .list ul li p.text span{
+  font-size: 30px;
+  font-family: 'KOTRA_BOLD-Bold';
+}
+#resource .inner .list ul li.box1 p.text span{
+  color: #008f54;
+}
+#resource .inner .list ul li.box2 p.text span{
+  color: #0056c1;
+}
+#resource .inner .list ul li.box3 p.text span{
+  color: #f36700;
+}
+#resource .inner .list ul li.box4 p.text span{
+  color: #004193;
+}
+#resource .inner .list p.total{
+  font-size: 20px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  position: absolute;
+  bottom: 260px;
+  right: 0;
+}
+
+
+/* 유인도, 무인도 */
+#island {
+  height: 2137px;
+  background: linear-gradient(0deg, rgba(4,118,225,1) 0%, rgba(8,220,251,1) 100%);
+  position: relative;
+  width: calc(100% - 110px);
+  padding-left: 110px;
+}
+#island .background {
+
+}
+#island .background .light {
+  background-image: url(../img/light.png);
+  width: 820px;
+  height: 1062px;
+  position: absolute;
+  left: 100px;
+}
+#island .background .woman1 {
+  background-image: url(../img/person1.png);
+  width: 72px;
+  height: 87px;
+  position: absolute;
+  top: 52px;
+  left: -30px;
+}
+#island .background .woman2 {
+  background-image: url(../img/person2.png);
+  width: 78px;
+  height: 75px;
+  position: absolute;
+  top: 85px;
+  right: 202px;
+}
+#island .background .couple {
+  background-image: url(../img/people.png);
+  width: 197px;
+  height: 283px;
+  position: absolute;
+  right: 154px;
+  top: 521px;
+}
+#island .background .wave {
+  background-image: url(../img/wave.png);
+  width: 193px;
+  height: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#island .background .wave::before{
+  content: "";
+  background-image: url(../img/wave.png);
+  width: 193px;
+  height: 14px;
+  position: absolute;
+  top: 30px;
+  right: 111px;
+}
+#island .inner {
+
+}
+#island .inner .slogan {
+  height: 504px;
+  /*! padding: 117px 0; */
+  position: relative;
+}
+
+/*슬로건 중앙*/
+#island .inner .slogan .center{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#island .inner .slogan .center h2 {
+  font-size: 38px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  text-shadow: 2px 2px 5px #4f4141b3;
+  position: absolute;
+  top: 108px;
+  left: calc(50% - (485.067px / 2));
+}
+#island .inner .slogan .center h2::before{
+  content:"?";
+  position: absolute;
+  font-size: 100px;
+  color: #83ebfc;
+  font-weight: 900;
+  font-family: 'GongGothicMedium';
+  top: -102px;
+  left: calc(50% - (71.6666px / 2));
+}
+#island .inner .slogan .center p{
+  font-size: 38px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  text-shadow: 2px 2px 5px #756a6ab3;
+  position: absolute;
+  left: calc(50% - 149px);
+}
+#island .inner .slogan .center p span {
+  font-size: 50px;
+  color: #103593;
+  padding: 0 24px;
+}
+#island .inner .slogan .center p span strong{
+  font-size: 80px;
+}
+
+/*슬로건 왼쪽*/
+#island .inner .slogan .left{
+  height: 100%;
+}
+#island .inner .slogan .left p.back_circle{
+  width: 164px;
+  height: 164px;
+  background: #0067f3;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+  left: 92px;
+}
+#island .inner .slogan .left p.circle_text{
+  color: white;
+  font-size: 33px;
+  display: block;
+  position: absolute;
+  top: 68px;
+  left: 129px;
+  text-shadow: none;
+}
+#island .inner .slogan .left img.no_talk {
+  background-image: url(../img/tit_ico1.png);
+  width: 124px;
+  height: 124px;
+  position: absolute;
+  top: 121px;
+  left: 116px;
+}
+#island .inner .slogan .left p.talk {
+  color: black;
+  font-size: 17px;
+  background-color: white;
+  text-shadow: none;
+  width: 315px;
+  height: 33px;
+  position: absolute;
+  top: 273px;
+  left: 20px;
+  border-radius: 23px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  line-height: 2;
+  text-align: center;
+  padding: 10px 10px;
+}
+#island .inner .slogan .left p.talk::before{
+  content: "";
+  background-image: url(../img/txt_box.png);
+  width: 41px;
+  height: 32px;
+  position: absolute;
+  top: -31px;
+  left: 65px;
+}
+#island .inner .slogan .left p{
+  font-size: 30px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  text-shadow: 2px 2px 5px #4f4141b3;
+  position: absolute;
+  bottom: 55px;
+  left: 71px;
+}
+#island .inner .slogan p span.yellow {
+  color: #ffe402;
+}
+
+/*슬로건 오른쪽*/
+#island .inner .slogan .right{
+
+}
+#island .inner .slogan .right p.back_circle{
+  width: 164px;
+  height: 164px;
+  background: #0067f3;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+  right: 92px;
+}
+#island .inner .slogan .right p.circle_text{
+  color: white;
+  font-size: 33px;
+  display: block;
+  position: absolute;
+  top: 68px;
+  right: 127px;
+  text-shadow: none;
+}
+#island .inner .slogan .right img.no_talk {
+  background-image: url(../img/tit_ico2.png);
+  width: 115px;
+  height: 104px;
+  position: absolute;
+  top: 122px;
+  right: 114px;
+}
+#island .inner .slogan .right p.talk {
+  color: black;
+  font-size: 17px;
+  background-color: white;
+  text-shadow: none;
+  width: 385px;
+  height: 60px;
+  position: absolute;
+  top: 259px;
+  right: -33px;
+  border-radius: 23px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  line-height: 1.8;
+  text-align: center;
+  padding: 10px 10px;
+}
+#island .inner .slogan .right p.talk::before{
+  content: "";
+  background-image: url(../img/txt_box.png);
+  width: 41px;
+  height: 32px;
+  position: absolute;
+  top: -31px;
+  left: 132px;
+  }
+#island .inner .slogan .right p{
+  font-size: 30px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  text-shadow: 2px 2px 5px #4f4141b3;
+  position: absolute;
+  bottom: 55px;
+  right: 71px;
+}
+
+/*유무인도 수*/
+#island .inner .number {
+  position: relative;
+  height: 500px;
+  padding: 50px 0;
+  width: 90%;
+}
+#island .inner .number .title {
+
+}
+#island .inner .number .title p {
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  font-size: 33px;
+  width: 288px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #4f4141b3;
+}
+#island .inner .number .title p::before{
+  content: "";
+  display: block;
+  background-image: url(../img/txt_ico1.png);
+  width: 49px;
+  height: 39px;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+}
+#island .inner .number .title p span{
+  background-color: #3551e3;
+  border-radius: 10px;
+  padding: 0 10px;
+  text-align: center;
+}
+#island .inner .number ul.graph {
+
+}
+#island .inner .number ul.graph li {
+  height: 81px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#island .inner .number ul.graph li p.years {
+  font-size: 35px;
+  color: white;
+  font-family: 'NEXON Lv2 Gothic';
+  text-shadow: 2px 2px 5px #4f4141b3;
+  font-weight: 700;
+}
+#island .inner .number ul.graph li img {
+  margin: auto 18px;
+}
+#island .inner .number ul.graph li p.bar {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0px 12px;
+}
+#island .inner .number ul.graph li:nth-child(1) p.bar{
+  background-color: #a4f5ff;
+}
+#island .inner .number ul.graph li:nth-child(1) p.bar:nth-child(12){
+  background-color: white;
+}
+#island .inner .number ul.graph li:nth-child(1) p.bar:nth-child(12)::after{
+  content: "";
+  /*! display: block; */
+  background-color: #a4f5ff;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+#island .inner .number ul.graph li:nth-child(2) p.bar{
+  background-color: #0077db;
+}
+#island .inner .number ul.graph li:nth-child(2) p.bar:nth-child(n+11){
+  background-color: white;
+}
+#island .inner .number ul.graph li:nth-child(3) p.bar{
+  background-color: #0060b2;
+}
+#island .inner .number ul.graph li:nth-child(3) p.bar:nth-child(n+9){
+  background-color: white;
+}
+#island .inner .number ul.graph li:nth-child(4) p.bar{
+  background-color: #004ad3;
+}
+#island .inner .number ul.graph li:nth-child(4) p.bar:nth-child(n+8){
+  background-color: white;
+}
+#island .inner .number ul.graph li:nth-child(5) p.bar{
+  background-color: #0022cc;
+}
+#island .inner .number ul.graph li:nth-child(5) p.bar:nth-child(n+7){
+  background-color: white;
+}
+#island .inner .number ul.graph li p.total {
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 110px;
+  height: 55px;
+  text-align: center;
+  line-height: 2;
+  margin: 0 20px;
+}
+#island .inner .number ul.graph li:nth-child(1) p.total{
+  color: #06a6ed;
+}
+#island .inner .number ul.graph li:nth-child(2) p.total{
+  color: #0077db;
+}
+#island .inner .number ul.graph li:nth-child(3) p.total{
+  color: #0060b2;
+}
+#island .inner .number ul.graph li:nth-child(4) p.total{
+  color: #004ad3;
+}
+#island .inner .number ul.graph li:nth-child(5) p.total{
+  color: #0022cc;
+}
+
+/*오류로 인해 메인2 number까지만 여기까지
+  main2의 allcity 부터는 다음 css에서 이어서*/

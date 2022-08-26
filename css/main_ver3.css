@@ -1,0 +1,207 @@
+#people .background{
+  height: 1207px;
+}
+#people .background >p{
+
+}
+#people .background >p:nth-child(1){
+  background-image: url(../img/bubble.png);
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  font-size: 0px;
+}
+#people .background >p:nth-child(2){
+  background-image: url(../img/fish2.png);
+  width: 145px;
+  height: 135px;
+  font-size: 0;
+  position: absolute;
+  right: 156px;
+  top: 124px;
+}
+#people .background >p:nth-child(3){
+  background-image: url(../img/fish3.png);
+  width: 242px;
+  height: 74px;
+  font-size: 0;
+  position: absolute;
+  bottom: 200px;
+  left: 273px;
+}
+#people .background img{
+    bottom: 0;
+    left: 0;
+    font-size: 0;
+    position: absolute;
+  }
+
+
+/* territory 영해의 기점 현황*/
+#territory {  
+  position: relative;
+  height: 931px;
+  width: calc(100% - 110px);
+  padding-left: 110px;
+}
+#territory .background {
+  width: 100%;
+  height: 931px;
+  background-color: #16508d;
+}
+#territory .background p {
+  font-size: 0;
+}
+#territory .background p:nth-child(1){
+  background-image: url(../img/jellyfish.png);
+  width: 147px;
+  height: 215px; 
+  position: absolute;
+  top: 134px;
+  left: 218px;
+}
+#territory .background p:nth-child(2){
+  background-image: url(../img/person3.png);
+  width: 258px;
+  height: 183px;
+  position: absolute;
+  top: 485px;
+  right: 181px;
+}
+#territory .background p:nth-child(3){
+  background-image: url(../img/coral1.png);
+  width: 481px;
+  height: 483px;
+  position: absolute;
+  bottom: 0;
+}
+#territory .background p:nth-child(4){
+  background-image: url(../img/coral2.png);
+  width: 476px;
+  height: 194px;
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+#territory .background p:nth-child(5){
+  background-image: url(../img/coral3.png);
+  width: 210px;
+  height: 232px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#territory .inner {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#territory .inner h2 {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 38px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  color: white;
+  /*! text-shadow: 2px 2px 5px #4f4141b3; */
+}
+#territory .inner img {
+
+  padding-right: 104px;
+}
+#territory .inner .talk {
+  display: block;
+  width: 518px;
+  height: 168px;
+  position: absolute;
+  background-color: white;
+  border-radius: 40px;
+  padding: 22px 29px;
+  font-family: 'NEXON Lv1 Gothic OTF';
+  display: flex;
+  justify-content: center;
+  /*! align-items: center; */
+  flex-direction: column;
+  top: 216px;
+  right: 81px;
+}
+#territory .inner .talk::before{
+  content: "";
+  display: block;
+  background-image: url(../img/txt_box2.png);
+  width: 76px;
+  height: 60px;
+  position: absolute;
+  bottom: -54px;
+  right: 138px;
+}
+#territory .inner .talk span {
+  font-size: 20px;
+  display: block;
+  padding-bottom: 20px;
+}
+#territory .inner .talk span::before{
+  content: "";
+  display: block;
+  width: 26%;
+  height: 12px;
+  opacity: 0.8;
+  background: #f8d466;
+  position: absolute;
+  top: 42px;
+}
+#territory .inner .talk span::after{
+  content: "영해의 기점이란?";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 30px;
+}
+#territory .inner .talk p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'NEXON Lv2 Gothic';
+  margin-top: 19px;
+}
+#territory .inner ul {
+  position: absolute;
+  right: 98px;
+  bottom: 88px;
+  color: white;
+  line-height: 2;
+}
+#territory .inner ul li {
+  width: 96px;
+  padding-right: 66px;
+}
+#territory .inner ul li:nth-child(1){
+  text-align: end;
+}
+#territory .inner ul li:nth-child(2){
+
+}
+#territory .inner ul li:nth-child(1)::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 56px;
+  height: 7px;
+  top: 12px;
+  right: 0;
+  background-color: white;
+  border-radius: 3px;
+}
+#territory .inner ul li:nth-child(2)::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 56px;
+  height: 7px;
+  top: 44px;
+  right: 0;
+  background-color: #efc032;
+  border-radius: 3px;
+}

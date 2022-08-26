@@ -1,0 +1,119 @@
+footer {
+  position: relative;
+  height: 232px;
+  width: calc(100% - 110px);
+  padding-left: 110px;
+  background-color: #303239;
+  font-family: 'HallymGothic-Regular';
+}
+footer aside#top{
+  display: block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #1271ff;
+  position: absolute;
+  top: -40px;
+  right: 40px;
+}
+footer aside#top a.top{
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  font-size: 13px;
+}
+footer aside#top a.top::before{
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-left: transparent;
+  border-bottom: transparent;
+  transform: translateY(50%) rotate(-45deg);
+  position: absolute;
+  top: -26px;
+  left: 8px;
+  animation-name: arrowAni;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+footer aside#top a.top::after{
+  content: "";
+  width: 2px;
+  height: 15px;
+  display: block;
+  background-color: #fff;
+  transform: translateY(-35%);
+  position: absolute;
+  left: 12px;
+  top: -17px;
+  animation-name: arrowAni;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+@keyframes arrowAn{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(20%);
+  }
+}
+footer .inner{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+footer .inner .left {
+  padding: 50px;
+  padding-right: 25px;
+}
+footer .inner .left address {
+  font-style: normal;
+  margin-bottom: 5px;
+}
+footer .inner .left p.copyright {
+  margin-bottom: 5px;
+}
+footer .inner .left p.email {
+
+}
+footer .inner .right {
+  display: flex;
+  padding: 50px;
+  position: absolute;
+  right: 0;
+  padding-right: 100px;
+}
+footer .inner .right p.notice {
+  width: 150px;
+  height: 62px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 3.7;
+  margin-right: 10px;
+}
+footer .inner .right p.notice a {
+
+}
+footer .inner .right a {
+
+}
+footer .inner .right a img {
+  width: 238px;
+  height: 59px;
+  border-radius: 5px;
+}
+footer .inner .right p.text {
+
+  line-height: 1.5;
+  font-size: 15px;
+  margin-left: 5px;
+  height: 50px;
+  margin-top: 6px;
+}

@@ -1,0 +1,261 @@
+@media screen and (max-width:768px){
+  /* 전국 시도별 섬 현황*/
+  #island .inner .allcity{
+    height: 1630px;
+  }
+  #island .inner .allcity .center{
+    height: 250px;
+  }
+  #island .inner .allcity .center h2{
+    font-size: 34px;
+  }  
+  #island .inner .allcity .center .pgroup p{
+    font-size: 22px;
+  }
+  #island .inner .allcity .left{
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    top: 260px;
+    height: 441px;
+  }
+  #island .inner .allcity .left .title p span::before{
+    left: 394px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(1){    
+    left: 186px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(2){
+    right: 291px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(3){
+    left: 414px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(4){
+    right: 170px;
+    bottom: 83px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(5){
+    right: 196px;
+    bottom: 59px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(6){
+    right: 225px;
+    bottom: 34px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(7){
+    right: 242px;
+    bottom: 12px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(8){
+    bottom: -18px;
+    right: 329px;
+  }
+  #island .inner .allcity .left ul.data li:nth-child(9){
+    bottom: -18px;
+    right: 399px;
+  }
+  #island .inner .allcity .right{
+    width: 100%;
+    left: 0;
+    top: 793px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  #island .inner .allcity .right .title p span::before{
+    left: 400px;
+    top: -25px;
+  }
+  #island .inner .allcity .right ul.data li:nth-child(1){
+    left: 363px;
+  }
+  #island .inner .allcity .right ul.data li:nth-child(2){
+    left: 290px;
+  }
+  #island .inner .allcity .right ul.data li:nth-child(3){
+    left: 291px;
+    top: 270px;
+  }
+  #island .inner .allcity .right ul.data li:nth-child(4){
+    left: 164px;
+    top: 345px;
+  }  
+  #island .inner .allcity .right ul.data li:nth-child(5){
+    left: 191px;
+    top: 369px;
+  } 
+  #island .inner .allcity .right ul.data li:nth-child(6){
+    left: 218px;
+    top: 395px;
+  }  
+  #island .inner .allcity .right ul.data li:nth-child(7){
+    left: 239px;
+    top: 417px;
+  }  
+  #island .inner .allcity .right ul.data li:nth-child(8){
+    left: 252px;
+    top: 441px;
+  }  
+  #island .inner .allcity .right ul.data li:nth-child(9){
+    left: 269px;
+    top: 465px;
+  }  
+  #island .inner .allcity .right ul.data li:nth-child(10){
+    left: 280px;
+    top: 487px;
+  }
+  #island .inner .allcity .right ul.data li:nth-child(11){
+    left: 298px;
+    top: 511px;
+  }
+  #island .inner .allcity .right > p{
+    right: 0;
+    top: -593px;
+  }
+
+  /* 전남 시군별 섬& 인구현황 */
+  #people{
+    width: 100%;
+    overflow: hidden;
+    height: 816px;
+  }
+  #people .inner h2 span{
+    font-size: 35px;
+  }
+  #people .inner img{
+    font-size: 30px;
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    overflow: hidden;
+  }
+  #people .inner .data ul.city{
+    transform: scale(0.63);
+  }
+  #people .inner .data ul.city:nth-child(1){
+    left: 64px;
+    top: 258px;
+  }
+  #people .inner .data ul.city:nth-child(2){
+    top: 195px;
+    left: 139px;
+  }
+  #people .inner .data ul.city:nth-child(3){
+    top: 195px;
+    left: 219px;
+  }
+  #people .inner .data ul.city:nth-child(4){
+    top: 195px;
+    left: 291px;
+  }
+  #people .inner .data ul.city:nth-child(5){
+    top: 195px;
+    left: 361px;
+  }
+  #people .inner .data ul.city:nth-child(6){
+    top: 195px;
+    left: 433px;
+  }
+  #people .inner .data ul.city:nth-child(7){
+    top: 195px;
+    left: 513px;
+  }
+  #people .inner .data ul.city:nth-child(8){
+    top: 255px;
+    left: 588px;
+  }
+  #people .inner .data ul.city:nth-child(9){
+    top: 345px;
+    left: 604px;
+  }
+  #people .inner .data ul.city:nth-child(10){
+    right: 154px;
+    top: 404px;
+  }
+  #people .inner .data ul.city:nth-child(11){
+    right: 245px;
+    top: 404px;
+  }
+  #people .inner .data ul.city:nth-child(12){
+    right: 336px;
+    top: 404px;
+  }
+  #people .inner .data ul.city:nth-child(13){
+    right: 425px;
+    top: 404px;
+  }
+  #people .inner .data ul.city:nth-child(14){
+    left: 165px;
+    top: 404px;
+  }
+  #people .inner .data ul.city:nth-child(15){
+    left: 64px;
+    top: 349px;
+  }
+  #people .background{    
+    height: 916px;
+  }
+  #people .background > p{
+
+  }
+  #people .background > p:nth-child(1){
+    transform: scale(0.9);
+    left: 45px;
+  }
+  #people .background > p:nth-child(2){
+    transform: scale(0.8);
+    right: 57px;
+    top: 35px;
+  }
+  #territory{
+    height: 1111px;
+    width: 100%;
+    padding: 0;
+  }
+  #territory .background{
+    height: 1111px;
+  }
+  #territory .background p:nth-child(1){
+    display: none;
+  }
+  #territory .background p:nth-child(2){
+    display: none;
+  }
+  #territory .inner h2{
+    position: absolute;
+    top: 7px;
+    font-size: 35px;
+  }
+  #territory .inner img{
+    padding: 0;
+    position: absolute;
+    top: 150px;
+  }
+  #territory .inner .talk{
+    top: 828px;
+    width: 94%;
+    left: 0;
+    padding: 15px 20px;
+  }
+  #territory .inner .talk::before{
+    display: none;
+  }
+  #territory .inner .talk span::before{
+    width: 21%;
+  }
+  #territory .inner ul{
+    bottom: 298px;
+    right: 10px;
+  }
+
+  /* 하단 영역 */
+  footer .inner{
+  font-size: 15px;
+  }
+}

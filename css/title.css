@@ -1,0 +1,156 @@
+#title {
+  position: relative;
+  width: calc(100% - 110px);
+  height: 925px;
+  top: -21px;
+}
+#title .inner {
+
+}
+#title .background{
+  height: 925px;
+  background-image: url(../img/M_visual1.jpg);
+}
+#title .background .wave1{
+  background-image: url(../img/wave1.svg);
+  position: absolute;
+  width: 100%;
+  height: 99px;
+  bottom: 0;
+  z-index: 2;
+}
+#title .background .wave2{
+  background-image: url(../img/wave1_gd.svg);
+  position: absolute;
+  width: 100%;
+  height: 207px;
+  bottom: 0;
+  z-index: 1;
+}
+#title .background .island{
+  background-image: url(../img/island.png);
+  position: absolute;
+  width: 637px;
+  height: 158px;
+  bottom: -4px;
+  right: 200px;
+  z-index: 1;
+}
+#title .inner .slogan {
+  display: flex;
+  justify-content: center;
+}
+#title .inner .slogan p {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+#title .inner .slogan p:nth-child(1)::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url(../img/slogan1.png);
+}
+#title .inner .slogan p:nth-child(1){
+  width: 683px;
+  height: 71px;
+  font-size: 0;
+  top: 185px;
+}
+#title .inner .slogan p:nth-child(1)::before{  
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  opacity: 0.8;
+  background: white;
+  border-radius: 20px;
+  z-index: -1;
+}
+#title .inner .slogan p:nth-child(2){
+  background-image: url(../img/slogan2.png);
+  width: 776px;
+  height: 71px;
+  font-size: 0;
+  top: 276px;
+}
+#title .inner form.search{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 393px;
+  left: calc(50% - 340px);
+}
+#title .inner form.search input {
+  height: 82px;
+  border: none;
+  padding: 0 16px;
+  font-size: 31px;
+  font-family: 'EliceDigitalBaeum-Bd';
+  width: 573px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+#title .inner form.search button {
+  width: 106px;
+  height: 100%;
+  position: absolute;
+  right: -63px;
+  border: none;
+  border-top-right-radius: 41px;
+  border-bottom-right-radius: 41px;
+  background-color: #6db5ff;
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat;
+  background-position-x: 31px;
+  background-position-y: 21px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+#title .aside{
+  position: fixed;
+  right: 21px;
+  top: 56px;
+  z-index: 2;
+}
+#title .aside ul{
+  background-image: url(../img/bg_userLink.png);
+  width: 115px;
+  height: 265px;
+}
+#title .aside ul li{
+  width: 115px;
+  height: 117px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'NEXON Lv2 Gothic';
+  text-align: center;
+  line-height: 22px;
+  background-repeat: no-repeat;
+  background-position-x: 34px;
+  background-position-y: 24px;
+}
+#title .aside ul li:nth-child(1){
+  background-image: url(../img/ico_userLink1.png)
+}
+#title .aside ul li:nth-child(2){
+  background-image: url(../img/ico_userLink2.png)
+}
+#title .aside ul li a{
+  display: block;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 700;
+  transform: translateY(82px);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+#title .aside ul li a p{
+
+}
+#title .aside ul li a p span.blue{
+  color: #0e68f0;
+}
+#title .aside ul li a p span.green{
+  color: #007d6b;
+}
