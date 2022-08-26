@@ -61,7 +61,7 @@
     height: 700px;
   }
   #title .background .wave1{
-    bottom: 0px;
+    bottom: -40px;
     left: 103px;
     width: 2400px;
     height: 90px;
@@ -76,7 +76,7 @@
     width: 53.083vw;
     height: 13.16vw;
     right: 0;
-    bottom: 0px;
+    bottom: 21px;
   }
   #title .inner{        
     height: 700px;
@@ -186,6 +186,14 @@
   #island .background .light{    
     left: -74px;
     width: 100%;
+    background-repeat: no-repeat;
+  }
+  #island .background .woman1{
+    left: -50px;
+  }
+  #island .background .woman2{
+    right: 30px;
+    top: 200px;
   }
   #island .background .couple{
     display: none;
@@ -200,6 +208,7 @@
     top: 340px;
     width: 388px;
     height: 467px;
+    left: 100px;
   }
   #island .inner .slogan .left p.back_circle{
     left: calc(50% - 82px);
@@ -224,7 +233,7 @@
   #island .inner .slogan .right{
     position: absolute;
     top: 340px;
-    right: 0;
+    right: 100px;
     width: 388px;
     height: 467px;
   }
@@ -250,6 +259,9 @@
     width: 100%;
     height: 458px;
     /*! transform: scale(0.9); */
+  }
+  #island .inner .number .title{
+    
   }
   #island .inner .number ul.graph{  
     transform: scale(0.9);
@@ -505,8 +517,17 @@
   #island{
     height: 2976px;
   }
+  #island .background_new p{
+    left: 30px;
+  }
+  #island .inner .slogan .left{
+    left: 0px;
+  }
   #island .inner .slogan .left p.talk{
     transform: scale(0.9);
+  }
+  #island .inner .slogan .right{
+    right: 0px;
   }
   #island .inner .slogan .right p.talk{
     transform: scale(0.9);

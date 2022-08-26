@@ -1,5 +1,5 @@
 main{
-  
+
 }
 #resource {
   position: relative;
@@ -11,14 +11,11 @@ main{
   height: 925px;
 }
 #resource .background img{
-  
-}
-#resource .background .bg {
-  background-image: url(../img/bg2.png);
   position: absolute;
-  bottom: 0;
   width: 100%;
   height: 322px;
+  bottom: 0;
+  right: 0;
 }
 #resource .background .leaf_L{
   background-image: url(../img/leaf2.png);
@@ -210,7 +207,7 @@ main{
   height: 87px;
   position: absolute;
   top: 52px;
-  left: -30px;
+  left: 130px;
 }
 #island .background .woman2 {
   background-image: url(../img/person2.png);
@@ -321,7 +318,6 @@ main{
   text-shadow: none;
 }
 #island .inner .slogan .left img.no_talk {
-  background-image: url(../img/tit_ico1.png);
   width: 124px;
   height: 124px;
   position: absolute;
@@ -389,7 +385,6 @@ main{
   text-shadow: none;
 }
 #island .inner .slogan .right img.no_talk {
-  background-image: url(../img/tit_ico2.png);
   width: 115px;
   height: 104px;
   position: absolute;
@@ -420,7 +415,7 @@ main{
   position: absolute;
   top: -31px;
   left: 132px;
-  }
+}
 #island .inner .slogan .right p{
   font-size: 30px;
   font-family: 'EliceDigitalBaeum-Bd';
@@ -558,4 +553,4 @@ main{
 }
 
 /*오류로 인해 메인2 number까지만 여기까지
-  main2의 allcity 부터는 다음 css에서 이어서*/
+main2의 allcity 부터는 다음 css에서 이어서*/
